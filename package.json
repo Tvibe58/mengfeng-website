@@ -1,7 +1,7 @@
 {
   "name": "mengfeng-website",
   "version": "0.1.0",
-  "homepage": "https://tvibe58.github.io/mengfeng-site",
+  "homepage": "https://tvibe58.github.io/mengfeng-website",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
