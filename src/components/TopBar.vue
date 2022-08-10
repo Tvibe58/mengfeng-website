@@ -5,7 +5,9 @@
       <div class="logo-text-en">MENGFENG MACH</div>
     </div>
     <div>
-      <div class="btn-contact" >联系我们</div>
+      <a href="#contactUs">
+        <div class="btn-contact">联系我们</div>
+      </a>
     </div>
   </div>
 </template>
@@ -24,14 +26,15 @@ export default {
   align-items: center;
   border-bottom: 1px solid #ccc;
   padding: 10px;
-  /* background-color: #333; */
   .logo-block {
     cursor: pointer;
+  }
+  a {
+    text-decoration: none;
   }
   .logo-text {
     font-weight: bold;
     color: #000;
-    /* color: #fff; */
     font-size: 28px;
   }
   .logo-text-en {
@@ -44,7 +47,7 @@ export default {
     border-radius: 12px 1px 12px 1px;
     padding: 10px 28px;
     color: #fff;
-    background: linear-gradient(136deg,rgba(50,124,255,.98) 3%,#7039ff)
+    background: linear-gradient(136deg, rgba(50, 124, 255, 0.98) 3%, #7039ff);
   }
 }
 </style>

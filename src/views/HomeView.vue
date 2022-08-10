@@ -12,7 +12,7 @@
     </div>
     <div class="block2">
       <div class="title">公司简介</div>
-      <div class="flex-row-space-between">
+      <div class="content-wrapper">
         <div class="img-wrapper">
           <BannerCarousel></BannerCarousel>
         </div>
@@ -61,6 +61,9 @@ export default {
       banner2: banner2,
       banner4: banner4
     }
+  },
+  created () {
+    document.title = '苏州盟丰'
   }
 }
 </script>
@@ -93,6 +96,7 @@ export default {
     left: 0;
     right: 50%;
     background-color: rgb(255, 255, 255, 0.6);
+    padding: 10px;
     .company {
       font-weight: bold;
       font-size: 14px;
@@ -112,6 +116,13 @@ export default {
   .block2 {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
+    .content-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
     .title {
       font-weight: bold;
       color: rgba(0, 0, 0, 0.833);
@@ -129,6 +140,7 @@ export default {
   .block3 {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
     color: #333;
     .title {
       font-weight: bold;
@@ -150,6 +162,15 @@ export default {
   }
   .block4 {
     margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    .content-wrapper {
+      display: flex;
+      flex-direction: column !important;
+    }
   }
 }
 </style>

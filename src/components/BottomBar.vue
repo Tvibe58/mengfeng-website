@@ -19,5 +19,6 @@ export default {
   color: #fff;
   background: rgb(73, 73, 73);
   height: 60px;
+  text-align: center;
 }
 </style>
