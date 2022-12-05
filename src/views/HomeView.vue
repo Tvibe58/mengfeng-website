@@ -34,7 +34,7 @@
         <div>
           <div class="company">苏州盟丰精密机械厂</div>
           <p>联系人：曹先生</p>
-          <p>邮箱：mengfeng@126.com</p>
+          <p>邮箱：mengfeng_cao@126.com</p>
         </div>
       </div>
     </div>
